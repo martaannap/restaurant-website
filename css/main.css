@@ -17,6 +17,7 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
   margin: 0;
 }
@@ -34,7 +35,7 @@ nav ol {
   list-style-type: none;
   padding-left: 0;
   text-align: right;
-  padding-top: 4em;
+  clear: both;
   margin: 0;
 }
 
@@ -57,10 +58,6 @@ nav ol {
   display: inline-block;
   float: right;
   margin: 1.3rem;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: red;
 }
 
 .nav-open,
@@ -87,8 +84,9 @@ nav ol {
 }
 
 header {
-    background-color: #3F4043;
-    margin: 0;
+  background-color: #3F4043;
+  margin: 0;
+  overflow: hidden;
 }
 
 header h1 {
@@ -104,7 +102,7 @@ header h1 {
 
 .banner {
   display: block;
-  background-color: #231F20;
+  background-color: pink;
 }
 
 .banner-content {
@@ -183,6 +181,12 @@ header h1 {
   background-color: #b9b5b4;
 }
 
+.card-1,
+.card-2,
+.card-3,
+.card-4, p {
+  text-decoration: none;
+}
 
 .deal-of-the-week {
   background-color: #3f4043;
@@ -195,6 +199,7 @@ h2 {
   padding: 13px;
   text-decoration: none;
   color: #b9915c;
+  font-weight: lighter;
 }
 
 .dow-content {
@@ -424,15 +429,6 @@ footer {
     margin: 6px;
   }
 
-  .nav {
-    width: 100%;
-  }
-
-  .nav li {
-    float: left;
-    width: 50%;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -455,8 +451,17 @@ footer {
       display: none;
     }
 
+    header h1 {
+      float: left;
+    }
+
+    nav {
+      float: right;
+    }
+
     .nav {
       display: block;
+      padding-top: .5rem;
     }
 
     .nav li {
@@ -468,6 +473,7 @@ footer {
     .nav ol {
       text-align: center;
     }
+
 }
 
 @media only screen and (min-width: 90em) {
