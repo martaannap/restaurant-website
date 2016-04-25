@@ -5,24 +5,31 @@
   <title>The Marketplace</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,700,300,900" rel="stylesheet">
 </head>
 <body>
   <header>
     <h1><img class="logo" src="images/placeholder-4by1.svg" alt=""></h1>
     <nav>
-      <ol>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+        <img class="nav-close " src="images/nav-icon-close.svg" alt="Close Navigation">
+      </label>
+      <ol class="nav">
         <li><a href="#">Deal of the Week</a></li>
         <li><a href="#">Healthy Options</a></li>
         <li><a href="#">Menu</a></li>
         <li><a href="#">Chef's Choice</a></li>
       </ol>
     </nav>
+  </header>
 
+  <main>
     <div class="banner">
-      <img class="img-flex" src="images/placeholder-16by9.svg" alt="">
       <div class="banner-content">
         <div class="img-burger">
-          <img src="images/placeholder-1by1.svg" alt="">
+          <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
         </div>
         <div class="banner-text">
           <p>Hungry?</p>
@@ -32,27 +39,29 @@
       </div>
       <div class="banner-bottom">
         <p>The Marketplace has affordable options!</p>
-        <div class="btn">
-          <a class="btn-big" href="#">Menu</a>
+        <div>
+          <a class="btn" href="#">MENU</a>
         </div>
       </div>
     </div>
-  </header>
 
-  <main>
     <section class="cards">
-    <a class="link-card" href="">
+    <a class="card-1" href="">
       <p>Deal of the Week</p>
       <img src="images/placeholder-circle.svg" alt="">
-    <a class="link-card" href="">
-      <p>Healthy Optionsk</p>
+    </a>
+    <a class="card-2" href="">
+      <p>Healthy Options</p>
       <img src="images/placeholder-circle.svg" alt="">
-    <a class="link-card" href="">
+    </a>
+    <a class="card-3" href="">
       <p>Menu</p>
       <img src="images/placeholder-circle.svg" alt="">
-    <a class="link-card" href="">
+    </a>
+    <a class="card-4" href="">
       <p>Chef's Choice</p>
       <img src="images/placeholder-circle.svg" alt="">
+    </a>
     </section>
 
     <section class="deal-of-the-week">
@@ -61,11 +70,137 @@
         <p>This week's deal is the veggie panini. Prepared with our finest ingredients, the panini is healthy and filling for a low price of $4.00!</p>
       </div>
       <div class="dow-image">
-        <img src="images/placehorder-1by1.svg" alt="">
+        <img class="dow-img-flex" src="images/placeholder-1by1.svg" alt="">
       </div>
     </section>
 
     <section class="healthy-options">
+      <h2>Healthy Options</h2>
+      <ol class="icon-group">
+        <li class="icon-group-item">
+          <div class="icon-group-image">
+            <img class="icon" src="images/placeholder-circle.svg" alt="">
+          </div>
+          <div class="icon-group-body">
+            <h3 class="icon-group-title">Gluten Free Options</h3>
+            <p>Beetroot Chicken Salad</p>
+            <p>Lettuce Wrap</p>
+            <p>Soup</p>
+          </div>
+        </li>
+        <li class="icon-group-item">
+          <div class="icon-group-image">
+            <img class="icon" src="images/placeholder-circle.svg" alt="">
+          </div>
+          <div class="icon-group-body">
+            <h3 class="icon-group-title">Lactose Free Options</h3>
+            <p>Wrap1</p>
+            <p>Wrap2</p>
+            <p>Chinese Stir Fry</p>
+          </div>
+        </li>
+        <li class="icon-group-item">
+          <div class="icon-group-image">
+            <img class="icon" src="images/placeholder-circle.svg" alt="">
+          </div>
+          <div class="icon-group-body">
+            <h3 class="icon-group-title">Vegan Options</h3>
+            <p>Squash Soup</p>
+            <p>Salad2</p>
+            <p>Salad3</p>
+          </div>
+        </li>
+        <li class="icon-group-item">
+          <div class="icon-group-image">
+            <img class="icon" src="images/placeholder-circle.svg" alt="">
+          </div>
+          <div class="icon-group-body">
+            <h3 class="icon-group-title">Vegeterian Options</h3>
+            <p>Smoothie1</p>
+            <p>Smoothie2</p>
+            <p>Smoothie3</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="chefs-choice">
+      <h2>Chef's Choice</h2>
+      <div class="cc-content">
+        <p>Chef Daniel recommends a delicious vegeterian option for lunch. He has created a delicious carrot and squash soup!</p>
+      </div>
+      <div class="cc-image">
+        <img class="cc-img-flex" src="images/placeholder-1by1.svg" alt="">
+      </div>
+    </section>
+
+    <section class="menu">
+      <h2>Menu</h2>
+      <ol class="icon-group">
+        <li class="icon-group-item">
+          <div class="icon-group-image">
+            <img class="icon" src="images/placeholder-circle.svg" alt="">
+          </div>
+          <div class="icon-group-body">
+            <h3 class="icon-group-title">Breakfast</h3>
+            <p>Breakfast1</p>
+            <p>Breakfast2</p>
+            <p>Breakfast3</p>
+          </div>
+        </li>
+        <li class="icon-group-item">
+          <div class="icon-group-image">
+            <img class="icon" src="images/placeholder-circle.svg" alt="">
+          </div>
+          <div class="icon-group-body">
+            <h3 class="icon-group-title">Lunch</h3>
+            <p>Lunch1</p>
+            <p>Lunch2</p>
+            <p>Lunch3</p>
+          </div>
+        </li>
+        <li class="icon-group-item">
+          <div class="icon-group-image">
+            <img class="icon" src="images/placeholder-circle.svg" alt="">
+          </div>
+          <div class="icon-group-body">
+            <h3 class="icon-group-title">Dinner</h3>
+            <p>Dinner1</p>
+            <p>Dinner2</p>
+            <p>Dinner3</p>
+          </div>
+        </li>
+        <li class="icon-group-item">
+          <div class="icon-group-image">
+            <img class="icon" src="images/placeholder-circle.svg" alt="">
+          </div>
+          <div class="icon-group-body">
+            <h3 class="icon-group-title">Deserts</h3>
+            <p>Desert1</p>
+            <p>Desert2</p>
+            <p>Desert3</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
   </main>
+  <footer>
+    <div class="hours">
+      <h2>Hours</h2>
+      <p>Monday-Friday 7am-7pm</p>
+    </div>
+    <div class="location">
+      <h2>Location</h2>
+      <p>Algonquin College Building D 1385 Woodroffe Ave, Ottawa, ON K2G 1V8</p>
+    </div>
+    <div class="social-media">
+      <div class="social-media-buttons">
+        <img class="fbook-icon" src="images/placeholder-circle.svg" alt="">
+        <img class="fbook-icon" src="images/placeholder-circle.svg" alt="">
+        <img class="fbook-icon" src="images/placeholder-circle.svg" alt="">
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
