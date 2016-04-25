@@ -472,12 +472,18 @@ footer {
       display: none;
     }
 
+    header {
+      position: relative;
+    }
+
     header h1 {
       float: left;
     }
 
     nav {
-      float: right;
+      position: absolute;
+      right: 0;
+      top: .5em;
     }
 
     .nav {
