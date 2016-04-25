@@ -95,7 +95,6 @@ header h1 {
 
 .logo {
   float: left;
-  max-width: 50%;
   max-height: 1em;
   margin: 1.3rem;
 }
@@ -215,6 +214,7 @@ h2 {
   float: right;
   display: inline-block;
   padding-bottom: 21px;
+  max-width: 15em;
 }
 
 .deal-of-the-week p {
@@ -257,7 +257,7 @@ h2 {
   width: 97%;
   padding: .5em;
   padding-bottom: 1.3rem;
-  background-color: #b9b5b4;
+  background-color: yellow;
   color: #698083;
   text-align: left;
 }
@@ -305,6 +305,7 @@ h2 {
   float: left;
   display: inline-block;
   padding-bottom: 21px;
+  max-width: 15em;
 }
 .chefs-choice p {
   padding: 0px 21px 13px 21px;
@@ -371,6 +372,12 @@ footer {
     margin-top: 1.4rem;
   }
 
+  .banner-text {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    margin: 0;
+  }
+
   .cards {
     display: block;
   }
@@ -399,6 +406,12 @@ footer {
   html {
      font-size: 110%;
      line-height: 1.4;
+   }
+
+   .banner-text {
+     font-size: 3rem;
+     line-height: 3rem;
+     margin: 0;
    }
 
   .icon-group-item {
@@ -437,6 +450,14 @@ footer {
       font-size: 120%;
       line-height: 1.5;
     }
+
+    .banner-text {
+      font-size: 3.5rem;
+      line-height: 4rem;
+      margin: 0;
+      padding-left: 10px;
+    }
+
     .card-1,
     .card-2,
     .card-3,
@@ -488,5 +509,10 @@ footer {
   line-height: 3rem;
   margin: 0;
 }
+.icon-group-item {
+  background-color: #b9b5b4;
+  margin: 0;
+  width: 25%;
+  }
 
 }
