@@ -53,7 +53,7 @@ nav ol {
 
 .nav-label {
   cursor: pointer;
-  width: 30px;
+  width: 40px;
   display: inline-block;
   float: right;
   margin: 1.3rem;
@@ -63,18 +63,27 @@ nav ol {
   background-color: red;
 }
 
-.nav-label img {
+.nav-open,
+.nav-close {
   display: block;
   width: 100%;
 }
 
-.nav-closed {
+.nav-close {
   display: none;
 }
 
 .nav a:hover {
   background-color: pink;
   color: yellow;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 header {
