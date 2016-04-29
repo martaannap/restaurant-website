@@ -233,12 +233,16 @@ h2 {
 .menu {
   overflow: hidden;
   clear: both;
-  background-color: #b9b5b4;
+  background-color: #404144;
 }
 
 .icon {
   display: block;
   width: 100%;
+}
+
+h3 {
+  color: #6a8184;
 }
 
 .icon-group {
@@ -274,15 +278,15 @@ h2 {
   display: inline-block;
   width: calc(100% - 64px - .8em);
   vertical-align: middle;
+  color: #b9b5b5;
 }
 
 .icon-group-title {
   display: block;
 }
 
-
 .chefs-choice {
-  background-color: #3f4043;
+  background-color: #b9b5b5;
   float: left;
   width: 100%;
 }
@@ -311,12 +315,13 @@ h2 {
 .chefs-choice p {
   padding: 0px 21px 13px 21px;
   margin: 0;
+  color: #404144;
 }
 
 .hours {
   float: left;
   display: inline-block;
-  background-color: #3f4043;
+  background-color: #6a8184;
   width: 50%;
   padding-bottom: 80px;
   min-height: 200px;
@@ -330,7 +335,7 @@ h2 {
   float: right;
   text-align: right;
   display: inline-block;
-  background-color: #3f4043;
+  background-color: #6a8184;
   width: 50%;
   min-height: 200px;
 }
@@ -338,15 +343,17 @@ h2 {
 .location p {
   padding: 0px 21px 13px 21px;
   margin: 0;
+  color: #404144;
 }
 
 .hours p {
   padding: 0px 21px 13px 21px;
   margin: 0;
+  color: #404144;
 }
 
 .social-media {
-  background-color: #3f4043;
+  background-color: #6a8184;
 }
 
 .social-media-buttons {
