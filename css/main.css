@@ -245,7 +245,7 @@ h3 {
 
 .icon-group {
   margin: 0;
-  padding: 0;
+  padding: 15px 15px 15px 25px;
   list-style-type: none;
   text-align: center;
   background-color: #404144;
@@ -415,13 +415,12 @@ footer {
    }
 
    .banner-text {
-     font-size: 3rem;
-     line-height: 3rem;
+     font-size: 3.4rem;
+     line-height: .8;
      margin: 0;
    }
 
   .icon-group-item {
-    background-color: #b9b5b4;
     margin: 0;
     width: 50%;
     }
