@@ -17,7 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   margin: 0;
 }
@@ -71,8 +70,8 @@ nav ol {
 }
 
 .nav a:hover {
-  background-color: pink;
-  color: yellow;
+  background-color: #404144;
+  color: #b9b5b5;
 }
 
 .nav-check:checked ~ .nav-label .nav-open {
@@ -182,7 +181,8 @@ header h1 {
 .card-1,
 .card-2,
 .card-3,
-.card-4, p {
+.card-4,
+p {
   text-decoration: none;
 }
 
@@ -216,8 +216,8 @@ h2 {
 }
 
 .deal-of-the-week p {
-  padding: 0px 21px 13px 21px;
-  margin: 0;
+  padding: 0 21px 13px 21px;
+  margin: auto;
   color: #404144;
 }
 
@@ -310,8 +310,9 @@ h2 {
   padding-bottom: 21px;
   max-width: 15em;
 }
+
 .chefs-choice p {
-  padding: 0px 21px 13px 21px;
+  padding: 0 21px 13px 21px;
   margin: 0;
   color: #404144;
 }
@@ -319,7 +320,6 @@ h2 {
 .hours {
   float: left;
   display: inline-block;
-  background-color: #6a8184;
   width: 50%;
   padding-bottom: 80px;
   min-height: 200px;
@@ -333,25 +333,20 @@ h2 {
   float: right;
   text-align: right;
   display: inline-block;
-  background-color: #6a8184;
   width: 50%;
   min-height: 200px;
 }
 
 .location p {
-  padding: 0px 21px 13px 21px;
+  padding: 0 21px 13px 21px;
   margin: 0;
   color: #404144;
 }
 
 .hours p {
-  padding: 0px 21px 13px 21px;
+  padding: 0 21px 13px 21px;
   margin: 0;
   color: #404144;
-}
-
-.social-media {
-  background-color: #6a8184;
 }
 
 .social-media-buttons {
@@ -365,11 +360,12 @@ h2 {
 
 .fbook-icon {
   margin: 20px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 footer {
   clear: both;
+  background-color: #6a8184;
 }
 
 @media only screen and (min-width: 25em) {
@@ -410,20 +406,20 @@ footer {
 @media only screen and (min-width: 38em) {
 
   html {
-     font-size: 110%;
-     line-height: 1.4;
-   }
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-   .banner-text {
-     font-size: 3.4rem;
-     line-height: .8;
-     margin: 0;
-   }
+  .banner-text {
+    font-size: 3.4rem;
+    line-height: .8;
+    margin: 0;
+  }
 
   .icon-group-item {
     margin: 0;
     width: 50%;
-    }
+  }
 
   .social-media {
     display: inline-block;
@@ -447,83 +443,85 @@ footer {
     margin: 6px;
   }
 
+  footer {
+    padding-bottom: 15px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
-      font-size: 120%;
-      line-height: 1.5;
-    }
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
-    .banner-text {
-      font-size: 3.5rem;
-      line-height: 4rem;
-      margin: 0;
-      padding-left: 10px;
-    }
+  .banner-text {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin: 0;
+    padding-left: 10px;
+  }
 
-    .card-1,
-    .card-2,
-    .card-3,
-    .card-4 {
-      float: left;
-      width: 25%;
-      padding-bottom: 1.3rem;
-      min-height: 250px;
-    }
-    .nav-check,
-    .nav-label {
-      display: none;
-    }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    float: left;
+    width: 25%;
+    padding-bottom: 1.3rem;
+    min-height: 250px;
+  }
 
-    header {
-      position: relative;
-    }
+  .nav-check,
+  .nav-label {
+    display: none;
+  }
 
-    header h1 {
-      float: left;
-    }
+  header {
+    position: relative;
+  }
 
-    nav {
-      position: absolute;
-      right: 0;
-      top: .5em;
-    }
+  header h1 {
+    float: left;
+  }
 
-    .nav {
-      display: block;
-      padding-top: .5rem;
-    }
+  nav {
+    position: absolute;
+    right: 0;
+    top: .5em;
+  }
 
-    .nav li {
-      float: none;
-      width: auto;
-      display: inline-block;
-    }
+  .nav {
+    display: block;
+    padding-top: .5rem;
+  }
 
-    .nav ol {
-      text-align: center;
-    }
+  .nav li {
+    float: none;
+    width: auto;
+    display: inline-block;
+  }
 
+  .nav ol {
+    text-align: center;
+  }
+
+  .icon-group {
+    padding: 15px 15px 30px 30px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
-  font-size: 130%;
-  line-height: 1.5;
-}
-
-.banner-text {
-  font-size: 4rem;
-  line-height: 3rem;
-  margin: 0;
-}
-.icon-group-item {
-  background-color: #b9b5b4;
-  margin: 0;
-  width: 25%;
+    font-size: 130%;
+    line-height: 1.5;
   }
 
+  .icon-group-item {
+    background-color: #b9b5b4;
+    margin: 0;
+    width: 25%;
+  }
 }
