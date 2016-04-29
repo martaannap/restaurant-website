@@ -115,7 +115,7 @@ header h1 {
   width: 50%;
   float: left;
   font-size: 2.5rem;
-  line-height: 1.3rem;
+  line-height: .6;
 }
 
 .img-flex {
@@ -129,7 +129,7 @@ header h1 {
   text-align: center;
   color: #b9b5b5;
   font-size: 1.4rem;
-  line-height: 1.9rem;
+  line-height: 1.5;
 }
 
 .banner-bottom p {
@@ -155,7 +155,7 @@ header h1 {
 }
 
 .cards {
-  background-color: grey;
+  background-color: #b9915d;
   text-align: center;
   overflow: hidden;
   display: none;
@@ -177,7 +177,6 @@ header h1 {
   float: left;
   width: 50%;
   padding-bottom: 1.3rem;
-  background-color: #b9b5b4;
 }
 
 .card-1,
@@ -198,7 +197,6 @@ h2 {
   padding: 13px;
   text-decoration: none;
   color: #b9915c;
-  font-weight: lighter;
 }
 
 .dow-content {
@@ -381,8 +379,8 @@ footer {
   }
 
   .banner-text {
-    font-size: 2.5rem;
-    line-height: 2rem;
+    font-size: 2.7rem;
+    line-height: .7;
     margin: 0;
   }
 
@@ -404,7 +402,7 @@ footer {
   }
 
   .icon-group-item {
-    background-color: pink;
+    background-color: #404144;
   }
 
 }
